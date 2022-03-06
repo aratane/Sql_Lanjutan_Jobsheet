@@ -1,0 +1,6 @@
+// gada di data nama matkul tsb.
+// Kd_Matkul foreign tidak ada yg namanya K0V01.
+// Tabrakan dengan foreign, menyebabkan error
+
+// NIM tidak bisa di tampilkan karena ambigu, berbenturan dengan Tbl_Nilai yg untuk menampilkan nilai, sedangkan di Tbl_Nilai ada NIM, Select NIM, Nama from Tbl_Mhs, nah system ambigu, NIM yg mn? Walaupun NIM di tbl_nilai itu foreign tetep tidak bisa !!. 
+// Gimana caranya? Akali dengan menggunakan statement alias pada kolom di tabel yg bersangkutan :)
